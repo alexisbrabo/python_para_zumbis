@@ -35,7 +35,7 @@ except ValueError:
         print('Precisa ser um número')
         sys.exit(0)
 
-d = input('Digite o número de segundos')
+d = input('Digite o número de segundos\n')
 
 try:
     d = int(d)
