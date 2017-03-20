@@ -2,7 +2,7 @@
 # Calcule o total em segundos.
 import sys
 
-a = input('Digite o número de dias')
+a = input('Digite o número de dias\n')
 
 try:
     a = int(a)
@@ -13,7 +13,7 @@ except ValueError:
         print('Precisa ser um número')
         sys.exit(0)
 
-b = input('Digite o número de horas')
+b = input('Digite o número de horas\n')
 
 try:
     b = int(b)
@@ -24,7 +24,7 @@ except ValueError:
         print('Precisa ser um número')
         sys.exit(0)
 
-c = input('Digite o número de minutos')
+c = input('Digite o número de minutos\n')
 
 try:
     c = int(c)
