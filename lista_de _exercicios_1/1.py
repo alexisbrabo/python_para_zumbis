@@ -2,6 +2,7 @@
 import sys
 
 a = input('Digite o primeiro número inteiro\n')
+
 try:
     valor1 = int(a)
 except ValueError:
