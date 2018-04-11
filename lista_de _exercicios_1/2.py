@@ -15,4 +15,4 @@ except ValueError:
 
 milimetros = float(metros * 1000)
 
-print('%s metros equivalem a %.0f milímetro' % (a, milimetros))
+print('%s metros equivalem a %.0f milímetros' % (a, milimetros))
