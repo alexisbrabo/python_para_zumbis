@@ -17,5 +17,5 @@ salarioLiquido = bruto - descontoImpostoRenda - descontoInss - descontoSindicato
 print("Seu salário bruto é de %.2f Reais" % bruto)
 print("Seu desconto de Imposto de Renda foi de %.2f Reais" % descontoImpostoRenda)
 print("Seu desconto de INSS foi de %.2f Reais" % descontoInss)
-print("Seu desconto de INSS foi de %.2f Reais" % descontoSindicato)
+print("Seu desconto de Sindicato foi de %.2f Reais" % descontoSindicato)
 print("Seu salário líquido é de %.2f Reais" % salarioLiquido)
