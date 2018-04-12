@@ -9,11 +9,12 @@
 valor = float(input("Quanto você ganha por hora?\n"))
 numHoras = float(input("Número de Horas trabalhadas\n"))
 bruto = valor * numHoras
-print("Seu salário bruto é de %.2f Reais" % bruto)
 descontoImpostoRenda = (11 / 100) * bruto
 descontoInss = (8 / 100) * bruto
 descontoSindicato = (5 / 100) * bruto
 salarioLiquido = bruto - descontoImpostoRenda - descontoInss - descontoSindicato
+
+print("Seu salário bruto é de %.2f Reais" % bruto)
 print("Seu desconto de Imposto de Renda foi de %.2f Reais" % descontoImpostoRenda)
 print("Seu desconto de INSS foi de %.2f Reais" % descontoInss)
 print("Seu desconto de INSS foi de %.2f Reais" % descontoSindicato)
