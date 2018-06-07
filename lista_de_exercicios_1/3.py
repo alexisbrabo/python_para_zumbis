@@ -1,5 +1,8 @@
-# Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário.
-# Calcule o total em segundos.
+"""
+Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário.
+Calcule o total em segundos.
+"""
+
 import sys
 
 a = input('Digite o número de dias\n')

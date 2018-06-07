@@ -1,5 +1,8 @@
-# solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o
-# preço a pagar.
+"""
+solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o
+preço a pagar.
+"""
+
 import sys
 
 a = input('Digite o Valor do Produto:\n')

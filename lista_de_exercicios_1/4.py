@@ -1,5 +1,8 @@
-# Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a
-# porcentagem do aumento. Exiba o valor do aumento e do novo salário.
+"""
+Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a
+porcentagem do aumento. Exiba o valor do aumento e do novo salário.
+"""
+
 import sys
 
 a = input('Digite o seu salário:\n')

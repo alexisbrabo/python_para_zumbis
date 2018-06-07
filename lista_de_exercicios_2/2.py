@@ -1,4 +1,6 @@
-# determine se o ano é bissexto
+"""
+determine se o ano é bissexto
+"""
 
 ano = int(input("Digiite o ano\n"))
 

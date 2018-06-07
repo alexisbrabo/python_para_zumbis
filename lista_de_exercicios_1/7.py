@@ -1,4 +1,6 @@
-# Converta uma temperatura digitada em Celsius para Fahrenheit. F = 9*C/5 + 32
+"""
+Converta uma temperatura digitada em Celsius para Fahrenheit. F = 9*C/5 + 32
+"""
 
 import sys
 
@@ -13,6 +15,6 @@ except ValueError:
         print('Precisa ser um número')
         sys.exit(0)
         
-fahreinheit = float(9 * celsius / 5 + 32);
+fahreinheit = float(9 * celsius / 5 + 32)
 
 print("O valor desta temperatura em Fahrenheit é de %.2f ºf" % fahreinheit)

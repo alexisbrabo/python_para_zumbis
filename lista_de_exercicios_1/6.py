@@ -1,5 +1,8 @@
-# Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média
-# esperada para a viagem.
+"""
+Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média
+esperada para a viagem.
+"""
+
 import sys
 
 a = input('Qual a distância a ser percorrida?\n')
@@ -16,6 +19,6 @@ except ValueError:
     print('Precisa ser um número')
     sys.exit(0)
 
-c = a / b;
+c = a / b
 
 print('O tempo médio desta viagem será de %.2f horas' % c)
