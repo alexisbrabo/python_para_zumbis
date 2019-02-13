@@ -9,7 +9,7 @@ a. + Salário Bruto : R$ b. - IR (11%) : R$ c. - INSS (8%) : R$ d. - Sindicato (
 """
 
 valor = float(input("Quanto você ganha por hora?\n"))
-numHoras = float(input("Número de Horas trabalhadas\n"))
+numHoras = float(input("Número de Horas trabalhadas:\n"))
 bruto = valor * numHoras
 descontoImpostoRenda = (11 / 100) * bruto
 descontoInss = (8 / 100) * bruto
