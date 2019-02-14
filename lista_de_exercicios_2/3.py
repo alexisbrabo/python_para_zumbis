@@ -8,11 +8,12 @@ o valor da multa que João deverá pagar. Caso contrário mostrar tais variávei
 
 peso = float(input("Peso do peixe:\n"))
 
-if peso>50:
+if peso > 50:
     excesso = peso - 50
     multa = excesso * 4
 else:
     excesso = 0
     multa = 0
 
-print("O excesso de peso é de %.2f Kg. O valor da multa é de %.2f Reais." % (excesso, multa))
+print("O excesso de peso é de %.2f Kg. O valor da multa é de %.2f Reais." %
+      (excesso, multa))
