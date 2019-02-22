@@ -18,5 +18,5 @@ else:
     valor_troco = valor_pagamento - valor_conta
     texto = ""
     soma = 0
-    while soma != valor_conta:
+    while soma != valor_conta:dddd
         
